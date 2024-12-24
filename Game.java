@@ -22,9 +22,8 @@ public class Game {
     }
 
     private void displayGameInstructions() {
-        System.out.println("Instructions: Survive the island by gathering key items, managing your health, and solving challenges.");
-        System.out.println("Type commands like 'move north', 'take item', or 'use item' to play the game.");
-        System.out.println("Note: The game ends after 100 in-game days if you haven't escaped.");
+        System.out.println("Instructions: Survive the island by gathering key items, managing your health, and solving challenges. Try to survive 100 days until the next trading ship will arrive!");
+        System.out.println("Type commands like 'move north' or 'take item' to play the game.");
     }
 
     public void start() {
